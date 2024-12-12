@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    height: 100vh;
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-bar .nav-list > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.nav-bar .nav-list{
+    list-style:none;
+    color: rgb(180, 180, 180);
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin-top: 200px;
+}
+
+.nav-bar .nav-list > a > li:hover{
+    color: white;
+    cursor: pointer;
+}
+.nav-bar .nav-list .active{
+    color: white;
+}
+.nav-bar .app-name{
+    color: white;
+}
+
+.main{
+    height: 100vh;
+    background-color: white;
+}
+
